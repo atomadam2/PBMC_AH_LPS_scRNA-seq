@@ -38,3 +38,7 @@ pbmc_ssc_mat.rds
 pbmc_ssc_metadata.rds
 Publically available PBMC data from https://satijalab.org/seurat/v3.0/integration.html
 
+
+For sake of reducing redundancy, scripts and data for Bulk-RNA-seq analysis of Liver are available in a different Github Repository:
+atomadam2/Liver_Deconvolution
+LiverDeconv_BulkRNASleuth.R
