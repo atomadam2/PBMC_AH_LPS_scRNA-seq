@@ -71,7 +71,7 @@ library(cowplot)
 ########################################
 
 # Replace XXXX with path to Seurat object from Seurat_Clustering_2.R script
-load("XXXX/PBMC_Immune.combined_scT_every_filt_20191017.Robj")
+load("XXXX/PBMC_Immune.combined_scT_every_filt.Robj")
 
 setwd("")
 getwd()
