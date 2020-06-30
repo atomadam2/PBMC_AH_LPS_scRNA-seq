@@ -26,6 +26,10 @@ Seurat_Cluster_3.R - R script used to create all figures and perform differntial
 Input: R object from Seurat_Cluster_2.R (PBMC_Immune.combined_scT_every_filt.Robj)
 Output: All violin plots and clustering figures
 
+PBMC_Gene_Correlations.R - R script used to create all gene correlation analyses and figures
+Input: R object from Seurat_Cluster_2.R (PBMC_Immune.combined_scT_every_filt.Robj)
+Output: All correlation figures
+
 List of files with descriptions:
 
 PBMC_Immune.integrated_scT_every_filt_20191016.Robj
@@ -37,6 +41,10 @@ This is the R object output from Seurat_Cluster_2.R - This file can be readily u
 pbmc_ssc_mat.rds
 pbmc_ssc_metadata.rds
 Publically available PBMC data from https://satijalab.org/seurat/v3.0/integration.html
+
+NKC_CXC_combo.csv
+CCL_genes.csv
+These are list of genes ordered by their genom position. NKC_CXC are the two separate cassettes put together, as seen in publication
 
 
 For sake of reducing redundancy, scripts and data for Bulk-RNA-seq analysis of Liver are available in a different Github Repository:
